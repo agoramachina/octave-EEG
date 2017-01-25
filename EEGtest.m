@@ -1,9 +1,13 @@
 %% 2014-09-26
+%% edit 2017-01-14
 %% agoramachina
 %% Loads and plots EEG data
 
 %% Initialization
 clear ; close all; clc
+
+%% Fixes Qt crash bug
+graphics_toolkit('gnuplot')
 
 %% Load EEG data
 printf("loading EEG data...\n");
