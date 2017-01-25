@@ -47,4 +47,4 @@ legend('gammaMid', 'gammaLow', 'betaHigh', 'betaLow', 'alphaHigh', 'alphaLow', '
 legend location eastoutside;
 title('Brainwaves'); 
 xlabel('Time');
-ylabel('Activity');
+ylabel('Activity'); 
